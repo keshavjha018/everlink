@@ -1,3 +1,21 @@
 .navbar {
     background-color: #daf0ff !important;
 }
+
+/* .navbar-brand {
+    justify-content: center;
+    display:inline-flex;
+} */
+
+.navbar-brand img {
+    margin: 2px;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 45%;
+}
+
+.brand-text {
+    margin: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
