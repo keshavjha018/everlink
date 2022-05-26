@@ -27,7 +27,7 @@ const Card = ({ ListData }) => {
                           const {id, siteName, siteLink} = thisLink;
                           return (
                             <>
-                              <li key={id}> <a href={siteLink} target="_blank" > {siteName} </a></li>
+                              <li key={id}> <a href={siteLink} target="_blank" rel="noreferrer noopener"> {siteName} </a></li>
                             </>
                           )
                         })}
