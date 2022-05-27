@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   /* html {
@@ -151,6 +151,11 @@
       grid-gap: 50px;
       justify-content: space-around;
     } */
+
+    .btn-group__item{
+      padding: 1rem 0.5rem !important;
+      font-size: 14px !important;
+    }
   }
   
   /* ---------- Button styles ------------------ */
@@ -200,8 +205,8 @@
     outline: none;
   }
   .btn-group__item:after {
-    content: "✔️";
-    margin-left: 0.5rem;
+    /* content: "✔️"; */
+    /* margin-left: 0.5rem; */
     display: inline-block;
     color: #4CD4CA;
     position: absolute;

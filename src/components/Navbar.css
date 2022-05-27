@@ -28,3 +28,11 @@
     padding-right: var(--bs-gutter-x,1.75rem);
     padding-left: var(--bs-gutter-x,1.75rem);
 }
+
+@media (max-width: 998px) {
+    .container-fluid{
+        /* padding-left: 0rem; */
+        padding-left: var(--bs-gutter-x,1rem);
+        padding-right: var(--bs-gutter-x,1rem);
+    }
+}
