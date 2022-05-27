@@ -1,31 +1,21 @@
 .card{
-  width: 15rem;
-  height:18rem;
+  width: 15.5rem;
+  height:19.5rem;
   padding: 1rem;
   text-align: center;
   transition: all 0.4s ease-in-out;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 6px 6px 10px rgba(91, 91, 91, 0.842);
-
   transform: perspective(500px);
 	transform-style: preserve-3d;
 }
 
-.card:hover{
-  background-color: #159cf7;
-  color:white;
-  /* transform: scale(1.05); */
-  transform: translateZ(40px);
-}
-.card:hover .content-heading{
-  color: white;
-}
 .card img{
   object-fit: contain;
   height: 8rem;
   padding-bottom: 2rem;
-  border-bottom: 2px solid purple;
+  border-bottom: 2px solid #4CD4CA;
   transition: all 0.8s ease-in-out;
   transform-style: preserve-3d;
   transform: perspective(1000px);
@@ -41,28 +31,30 @@
 
 .content{
   font-size: 1rem;
-  /* color: white; */
+  color: black;
   
+}
+.content-box{
+  transition: all 0.8s ease-in-out; 
+}
+
+.card:hover{
+  background-color: #4CD4CA;
+  color:black;
+  transform: translateZ(40px);
+}
+
+.card:hover .content-heading{
+  margin: 1.5rem;
 }
 
 .card:hover .content{
   display: none;
   height: fit-content;
 }
-.content-box{
-  transition: all 0.8s ease-in-out;
-  
-}
+
 .card:hover img , .card:hover .content-box{
   transform: translateY(-9rem);
-}
-
-.links-list{
-  display: none;
-  color: white;
-  transition: all 0.6s ease-in-out;
-  margin: 1rem;
-  text-align: center;
 }
 
 .card:hover .links-list{
@@ -70,24 +62,32 @@
   height: 3rem;
 }
 
-
-
 .card:hover a{
-  color: white;
+  color: black;
+  text-decoration: none !important;
 }
+
+.links-list{
+  display: none;
+  color: black;
+  transition: all 0.6s ease-in-out;
+  margin: 1rem;
+  text-align: center;
+}
+
 .links-list li {
   transition: all 0.2s ease-in-out;
   margin: 1rem;
 }
 .links-list li:hover{
   transform: scale(1.05);
-
+  /* color: whitesmoke; */
 }
 
 .main-card--cointainer {
   display: grid;
   grid-template-columns: repeat(4, minmax(300px, 500px));
-  grid-gap: 10px;
+  grid-gap: 0.7rem;
   justify-content: space-around;
 }
 

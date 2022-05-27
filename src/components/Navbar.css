@@ -1,11 +1,15 @@
 .navbar {
-    background-color: #daf0ff !important;
+    background-color: #4CD4CA !important;
 }
 
-/* .navbar-brand {
-    justify-content: center;
-    display:inline-flex;
-} */
+.navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.navbar-nav {
+    margin-left: 30%;
+}
 
 .navbar-brand img {
     margin: 2px;
@@ -18,4 +22,9 @@
     margin: 1rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+
+.container-fluid {
+    padding-right: var(--bs-gutter-x,1.75rem);
+    padding-left: var(--bs-gutter-x,1.75rem);
 }
