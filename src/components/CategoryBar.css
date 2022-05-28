@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box; */
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
@@ -153,7 +153,7 @@
     } */
 
     .btn-group__item{
-      padding: 1rem 0.5rem !important;
+      padding: 0.7rem 0.5rem !important;
       font-size: 14px !important;
     }
   }
@@ -161,8 +161,6 @@
   /* ---------- Button styles ------------------ */
   
   .categorybar {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
     text-align: center;
   }
   
@@ -175,11 +173,15 @@
   .btn-group {
     border-radius: 1rem;
     text-transform: capitalize;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
   }
+
   .btn-group__item {
     border: none;
     /* min-width: 6rem; */
-    padding: 1.5rem 3rem;
+    padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+    text-align: center;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
     margin: 0;
@@ -198,8 +200,9 @@
   }
   .btn-group__item:hover,
   .btn-group__item:focus {
-    color: #074d48;
-    box-shadow: inset 0px -20px 0px -15px #4CD4CA;
+    /* color: #074d48; */
+    color: whitesmoke;
+    box-shadow: inset 0px -200px 0px -18px #11aea4;
   }
   .btn-group__item:focus {
     outline: none;

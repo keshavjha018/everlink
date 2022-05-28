@@ -4,7 +4,7 @@ import './CategoryBar.css'
 function CategoryBar({filterItem, CategoryList}) {
     return (
         <>
-            <nav className="categorybar">
+            <nav className="categorybar sticky-top">
                 <div className="btn-group">
                     {
                         // iterating over each element of uniqueList(i.e passes via CategoryList)

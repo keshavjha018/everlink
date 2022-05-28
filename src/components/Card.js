@@ -16,7 +16,7 @@ const Card = ({ ListData }) => {
           return (
             <>
               <div className="card-container" key={_id}>
-                <Tilt style={{ margin: "0px", padding: "0px", width: "fit-content" }}>
+                <Tilt style={{ margin: "0px", padding: "0px", width: "fit-content", borderRadius:'8px' }}>
                   <div className='card'>
                     <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/2x/external-cdn-web-development-flaticons-lineal-color-flat-icons.png" alt="thumbnail here" />
                     <div className='content-box'>

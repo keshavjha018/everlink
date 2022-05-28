@@ -5,7 +5,7 @@ import logo from '../images/logo.png'
 function Navbar() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
                         <img src={logo} alt="logo" class="d-inline-block " />

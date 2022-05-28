@@ -6,7 +6,7 @@
   transition: all 0.4s ease-in-out;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 6px 6px 10px rgba(91, 91, 91, 0.842);
+  /* box-shadow: 6px 6px 10px rgba(91, 91, 91, 0.842); */
   transform: perspective(500px);
 	transform-style: preserve-3d;
 }
@@ -42,6 +42,7 @@
   background-color: #4CD4CA;
   color:black;
   transform: translateZ(40px);
+  box-shadow: 2px 2px 6px rgba(132, 132, 132, 0.842);
 }
 
 .card:hover .content-heading{

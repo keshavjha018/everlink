@@ -1,5 +1,7 @@
 .navbar {
-    background-color: #4CD4CA !important;
+    background-color: rgb(51,187,177,0.7) !important;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
 }
 
 .navbar-brand {
@@ -13,8 +15,8 @@
 
 .navbar-brand img {
     margin: 2px;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 45%;
 }
 
@@ -29,10 +31,23 @@
     padding-left: var(--bs-gutter-x,1.75rem);
 }
 
+/* BLUR EFFECT */
+@supports ((-webkit-backdrop-filter: saturate(180%) blur(20px)) or (backdrop-filter: saturate(180%) blur(20px))){
+    .navbar {
+        background: rgba(0,0,0,0.8);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(5px);
+    }
+}
+
 @media (max-width: 998px) {
     .container-fluid{
         /* padding-left: 0rem; */
         padding-left: var(--bs-gutter-x,1rem);
         padding-right: var(--bs-gutter-x,1rem);
+    }
+
+    .brand-text{
+        font-size:15px;
     }
 }
