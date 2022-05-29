@@ -1,0 +1,40 @@
+    .footer{
+    background:#000;
+    padding:1px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .ele-row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .ele-row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .ele-row a:hover{
+    color:#fff;
+    }
+    
+    .footer .ele-row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    
+    .footer .ele-row a i{
+    margin:0% 3%;
+    }
+    }
