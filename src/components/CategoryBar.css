@@ -144,7 +144,7 @@
     z-index: -1;
   } */
   
-  @media (max-width: 998px) {
+  @media (max-width: 450px) {
     /* .main-card--cointainer {
       display: grid;
       grid-template-columns: repeat(1, minmax(200px, 500px));
@@ -161,7 +161,12 @@
   /* ---------- Button styles ------------------ */
   
   .categorybar {
-    text-align: center;
+    /* text-align: center; */
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
   
   .categorybar h1 {
@@ -201,7 +206,7 @@
   .btn-group__item:hover,
   .btn-group__item:focus {
     /* color: #074d48; */
-    color: whitesmoke;
+    color: white;
     box-shadow: inset 0px -200px 0px -18px #11aea4;
   }
   .btn-group__item:focus {
