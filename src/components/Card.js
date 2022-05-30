@@ -11,14 +11,14 @@ const Card = ({ ListData }) => {
         {/* curElem returns an array with id,name... etc  */}
         {ListData.map((curElem) => {
           // updating curElem values in these variables over each iteration
-          const { _id, name, category, description, LabelTags, Link } = curElem;
+          const { _id, name, category, description, LabelTags,iconLink ,Link } = curElem;
 
           return (
             <>
               <div className="card-container" key={_id}>
                 <Tilt style={{ margin: "0px", padding: "0px", width: "fit-content", borderRadius:'8px' }}>
                   <div className='card'>
-                    <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/2x/external-cdn-web-development-flaticons-lineal-color-flat-icons.png" alt="thumbnail here" />
+                    <img src={iconLink} alt="thumbnail here" />
                     <div className='content-box'>
                       <h4 className='content-heading'>{name}</h4>
                       <p className='content'>{description}</p>

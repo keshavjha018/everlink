@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../images/logo.png'
 
 function Navbar() {
     return (
@@ -8,7 +7,7 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
-                        <img src={logo} alt="logo" class="d-inline-block " />
+                        <img src="images/logo.png" alt="logo" class="d-inline-block " />
                         <span className="brand-text">
                             E V E R L I N K
                         </span>

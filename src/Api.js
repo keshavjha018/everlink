@@ -5,6 +5,7 @@ const LinksData = [
     name: "Notes",
     description: "Top Free Notes website Links",
     LabelTags: [],
+    iconLink: "images/notes.svg",
     Link: [
       {
         _id: "01A",
@@ -29,6 +30,7 @@ const LinksData = [
     name: "Books",
     description: "Top Free Books website Links",
     LabelTags: [],
+    iconLink: "images/books.svg",
     Link: [
       {
         _id: "02A",
@@ -53,6 +55,7 @@ const LinksData = [
     name: "Courses",
     description: "Top free courses",
     LabelTags: [],
+    iconLink: "images/courses.svg",
     Link: [
       {
         _id: "03A",
@@ -76,35 +79,36 @@ const LinksData = [
       },
     ],
   },
-  {
-    _id: "04",
-    category: "Educational",
-    name: "Mentors",
-    description: "",
-    LabelTags: [],
-    Link: [
-      {
-        _id: "04A",
-        siteName: "",
-        siteLink: "",
-      },
-      {
-        _id: "04B",
-        siteName: "",
-        siteLink: "",
-      },
-      {
-        _id: "04C",
-        siteName: "",
-        siteLink: "",
-      },
-      {
-        _id: "04D",
-        siteName: "",
-        siteLink: "",
-      },
-    ],
-  },
+  // {
+  //   _id: "04",
+  //   category: "Educational",
+  //   name: "Mentors",
+  //   description: "",
+  //   LabelTags: [],
+  //   iconLink: "images/",
+  //   Link: [
+  //     {
+  //       _id: "04A",
+  //       siteName: "",
+  //       siteLink: "",
+  //     },
+  //     {
+  //       _id: "04B",
+  //       siteName: "",
+  //       siteLink: "",
+  //     },
+  //     {
+  //       _id: "04C",
+  //       siteName: "",
+  //       siteLink: "",
+  //     },
+  //     {
+  //       _id: "04D",
+  //       siteName: "",
+  //       siteLink: "",
+  //     },
+  //   ],
+  // },
 
   {
     _id: "06",
@@ -112,6 +116,7 @@ const LinksData = [
     name: "Internship",
     description: "",
     LabelTags: [],
+    iconLink: "images/internships.svg",
     Link: [
       {
         _id: "06A",
@@ -126,6 +131,7 @@ const LinksData = [
     name: "Sports Streaming",
     description: "",
     LabelTags: [],
+    iconLink: "images/sports.svg",
     Link: [
       {
         _id: "07A",
@@ -145,6 +151,7 @@ const LinksData = [
     name: "Online TV Straeming",
     description: "",
     LabelTags: [],
+    iconLink: "images/online-tv.svg",
     Link: [
       {
         _id: "08A",
@@ -161,9 +168,10 @@ const LinksData = [
   {
     _id: "09",
     category: "Entertainment",
-    name: "Movie Straem",
+    name: "Movie Stream",
     description: "",
     LabelTags: [],
+    iconLink: "images/movies.svg",
     Link: [
       {
         _id: "09A",
@@ -188,40 +196,12 @@ const LinksData = [
     ],
   },
   {
-    _id: "10",
-    category: "Entertainment",
-    name: "P.. Sites",
-    description: "",
-    LabelTags: [],
-    Link: [
-      {
-        _id: "10A",
-        siteName: "",
-        siteLink: "",
-      },
-      {
-        _id: "10B",
-        siteName: "",
-        siteLink: "",
-      },
-      {
-        _id: "10C",
-        siteName: "",
-        siteLink: "",
-      },
-      {
-        _id: "10D",
-        siteName: "",
-        siteLink: "",
-      },
-    ],
-  },
-  {
     _id: "11",
     category: "Entertainment",
-    name: "Song Downloder",
+    name: "Song Downloader",
     description: "",
     LabelTags: [],
+    iconLink: "images/song.svg",
     Link: [
       {
         _id: "11A",
@@ -251,6 +231,7 @@ const LinksData = [
     name: "PC Software Downloaders",
     description: "",
     LabelTags: [],
+    iconLink: "images/pc-apps.svg",
     Link: [
       {
         _id: "12A",
@@ -280,6 +261,7 @@ const LinksData = [
     name: "Diagram Creator",
     description: "",
     LabelTags: [],
+    iconLink: "images/diagram-creators.svg",
     Link: [
       {
         _id: "13A",
@@ -304,40 +286,12 @@ const LinksData = [
     ],
   },
   {
-    _id: "14",
-    category: "Tools",
-    name: "Stiker Makers",
-    description: "",
-    LabelTags: [],
-    Link: [
-      {
-        _id: "14A",
-        siteName: "",
-        siteLink: "",
-      },
-      {
-        _id: "14B",
-        siteName: "",
-        siteLink: "",
-      },
-      {
-        _id: "14C",
-        siteName: "",
-        siteLink: "",
-      },
-      {
-        _id: "14D",
-        siteName: "",
-        siteLink: "",
-      },
-    ],
-  },
-  {
     _id: "15",
     category: "Tools",
     name: "PC Game Downloaders",
     description: "",
     LabelTags: [],
+    iconLink: "images/pc-games.svg",
     Link: [
       {
         _id: "15A",
@@ -367,6 +321,7 @@ const LinksData = [
     name: "Meme Makers",
     description: "",
     LabelTags: [],
+    iconLink: "images/meme.svg",
     Link: [
       {
         _id: "16A",
@@ -396,6 +351,7 @@ const LinksData = [
     name: "Wallpaper Downloaders",
     description: "",
     LabelTags: [],
+    iconLink: "images/wallpaper.svg",
     Link: [
       {
         _id: "17A",
@@ -425,6 +381,7 @@ const LinksData = [
     name: "PDF Editors/Convertor",
     description: "",
     LabelTags: [],
+    iconLink: "images/pdf.svg",
     Link: [
       {
         _id: "18A",
@@ -454,6 +411,7 @@ const LinksData = [
     name: "Daily Usage Tools",
     description: "",
     LabelTags: [],
+    iconLink: "images/daily-tools.svg",
     Link: [
       {
         _id: "19A",
@@ -483,6 +441,7 @@ const LinksData = [
     name: "Video Editors",
     description: "",
     LabelTags: [],
+    iconLink: "images/video-editor.svg",
     Link: [
       {
         _id: "20A",
@@ -512,6 +471,7 @@ const LinksData = [
     name: "Images Editors",
     description: "",
     LabelTags: [],
+    iconLink: "images/photo-editor.svg",
     Link: [
       {
         _id: "21A",
@@ -541,6 +501,7 @@ const LinksData = [
     name: "CSS Tools/Tips/Tricks",
     description: "",
     LabelTags: [],
+    iconLink: "images/css.svg",
     Link: [
       {
         _id: "22A",
@@ -570,6 +531,7 @@ const LinksData = [
     name: "Logo Makers",
     description: "",
     LabelTags: [],
+    iconLink: "images/logo-maker.svg",
     Link: [
       {
         _id: "23A",
@@ -599,6 +561,7 @@ const LinksData = [
     name: "Online IDE",
     description: "",
     LabelTags: [],
+    iconLink: "images/online-ide.svg",
     Link: [
       {
         _id: "24A",
@@ -628,6 +591,7 @@ const LinksData = [
     name: "Diagram Creators",
     description: "",
     LabelTags: [],
+    iconLink: "images/diagram-creators.svg",
     Link: [
       {
         _id: "25A",
@@ -657,6 +621,7 @@ const LinksData = [
     name: "Website Builder",
     description: "",
     LabelTags: [],
+    iconLink: "images/website.svg",
     Link: [
       {
         _id: "26A",
@@ -686,6 +651,7 @@ const LinksData = [
     name: "Online Coding Platforms",
     description: "",
     LabelTags: [],
+    iconLink: "images/online-code.svg",
     Link: [
       {
         _id: "27A",
@@ -715,6 +681,7 @@ const LinksData = [
     name: "PC Games Downloader",
     description: "",
     LabelTags: [],
+    iconLink: "images/pc-games.svg",
     Link: [
       {
         _id: "28A",
