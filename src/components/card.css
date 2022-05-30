@@ -82,7 +82,6 @@
 }
 .links-list li:hover{
   transform: scale(1.05);
-  /* color: whitesmoke; */
 }
 
 .main-card--cointainer {
@@ -91,6 +90,8 @@
   grid-gap: 0.7rem;
   justify-content: space-around;
   margin-bottom: 2rem;
+  /* Forces the footer to stay at bottom of the page, even if cards can't fill the page */
+  min-height: calc(73.5vh - 40px);
 }
 
 .card-container {
