@@ -4,21 +4,21 @@ import './CSS/CategoryBar.css';
 function CategoryBar({filterItem, CategoryList}) {
     return (
         <>
-            <nav className="categorybar sticky-top">
+            <div className="categorybar sticky-top">
                 <div className="btn-group">
                     {
                         // iterating over each element of uniqueList(i.e passes via CategoryList)
-                        CategoryList.map((curElem) => {
+                        CategoryList.map((curElem, idx) => {
                             return (
                                 //onclick filter list by current category
-                                <button className="btn-group__item" onClick={() => filterItem(curElem)}>
+                                <button key={idx} className="btn-group__item" onClick={() => filterItem(curElem)}>
                                     {curElem}
                                 </button>
                             );
                         })
                     }
                 </div>
-            </nav>
+            </div>
         </>
     )
 }

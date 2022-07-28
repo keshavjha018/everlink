@@ -1,13 +1,20 @@
 import React from 'react';
 import './CSS/Navbar.css';
 
-function Navbar() {
+function Navbar({searchHandler}) {
+    
+    let inputHandler = (e) => {
+        //Convert input to lowercase
+        var inputText = e.target.value.toLowerCase();
+        searchHandler(inputText);
+    };
+
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
-                        <img src="images/logo.png" alt="logo" class="d-inline-block " />
+                        <img src="images/logo.png" alt="logo" className="d-inline-block " />
                         <span className="brand-text">
                             E V E R L I N K
                         </span>
@@ -25,8 +32,8 @@ function Navbar() {
                             </li>
                         </ul>
                         <form className="d-flex">
-                            <input className="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search" />
-                                <button className="btn btn-outline-success search-btn" type="submit">Search</button>
+                            <input onChange={inputHandler} className="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search" />
+                                {/* <button className="btn btn-outline-success search-btn" type="submit">Search</button> */}
                         </form>
                     </div>
                 </div>

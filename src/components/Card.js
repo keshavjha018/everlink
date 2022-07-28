@@ -8,10 +8,12 @@ const Card = ({ ListData }) => {
   return (
     <>
       <section className="main-card--cointainer">
+        
         {/* curElem returns an array with id,name... etc  */}
+
         {ListData.map((curElem) => {
           // updating curElem values in these variables over each iteration
-          const { _id, name, category, description, LabelTags,iconLink ,Link } = curElem;
+          const { _id, name, description, iconLink, Link } = curElem;
 
           return (
             <>
