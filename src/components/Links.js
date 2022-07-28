@@ -9,11 +9,14 @@ const uniqueList = [...new Set(LinksData.map((curElem) => {
 })), "All",];
 
 function Links() {
+
   //for management of state
   const [ListData, setListData] = useState(LinksData);
 
+
   //for category bar
   const [CategoryList, setCategoryList] = useState(uniqueList);
+
 
   // filter the type of Site => Educatioanl/Entertainment/ etc
   // category => argument 
@@ -30,6 +33,7 @@ function Links() {
       return curElem.category === category;
     });
 
+    
     //updates the ListData
     setListData(updatedList);
   }

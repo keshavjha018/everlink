@@ -1,7 +1,7 @@
 import React from 'react';
-import './card.css'
-import '../vanilla-tilt'
-import Tilt from 'react-vanilla-tilt'
+import './CSS/card.css';
+import '../vanilla-tilt';
+import Tilt from 'react-vanilla-tilt';
 
 
 const Card = ({ ListData }) => {

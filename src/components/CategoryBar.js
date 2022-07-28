@@ -1,5 +1,5 @@
-import React from 'react'
-import './CategoryBar.css'
+import React from 'react';
+import './CSS/CategoryBar.css';
 
 function CategoryBar({filterItem, CategoryList}) {
     return (
