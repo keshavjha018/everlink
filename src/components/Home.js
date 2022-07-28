@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import CategoryBar from './CategoryBar'
 import Card from './Card'
-import LinksData from '../Api'
+import LinksData from '../Data'
 
 //stores unique category to automate CategoryBar element creation
 const uniqueList = [...new Set(LinksData.map((curElem) => {
   return curElem.category;
 })), "All",];
 
-function Links() {
+function Home() {
 
   //for management of state
   const [ListData, setListData] = useState(LinksData);
@@ -46,4 +46,4 @@ function Links() {
   )
 }
 
-export default Links
+export default Home;
